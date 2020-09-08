@@ -19,8 +19,8 @@ const colorFunction = require('postcss-color-mod-function');
 const cssnano = require('cssnano');
 const easyimport = require('postcss-easy-import');
 
-const REPO = 'TryGhost/Casper';
-const REPO_READONLY = 'TryGhost/Casper';
+const REPO = 'jaguart/Mantha';
+const REPO_READONLY = 'jaguart/Mantha';
 const CHANGELOG_PATH = path.join(process.cwd(), '.', 'changelog.md');
 
 function serve(done) {
@@ -127,7 +127,7 @@ exports.release = () => {
         type: 'input',
         name: 'compatibleWithGhost',
         message: 'Which version of Ghost is it compatible with?',
-        default: '3.0.0'
+        default: '3.31.0'
     }])
     .then(result => {
         compatibleWithGhost = result.compatibleWithGhost;
