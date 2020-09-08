@@ -10,6 +10,7 @@ Are you looking for the [MANTHA-readme](README.md)?
 * updated ``.gitignore`` to exclude things in ``assets/built/``
 * removed tracking of the current content of ``assets/built/`` - ``git rm --cache assets/built/*``
 * added to LICENCE
+* updated package.json for Mantha
 
 ## Core structure
 
