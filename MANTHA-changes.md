@@ -4,17 +4,16 @@ This is a record of the Casper things I have changed/added to get Mantha working
 
 Are you looking for the [MANTHA-readme](README.md)?
 
-
 ## Tooling
 
 * updated ``.gitignore`` to exclude things in ``assets/built/``
 * removed tracking of the current content of ``assets/built/`` - ``git rm --cache assets/built/*``
-* added to LICENCE
-* updated package.json for Mantha
-* removed all Casper tags
-* created tag 0.0.0 to get ``yarn run ship`` to work.
-* created config.json with github access token.
-* updated gulpfile.js
+* added to [LICENCE](LICENCE)
+* mANTHARISED package.json
+* removed all Casper repo tags `git tag -d $(git tag -l)`
+* updated gulpfile.js - attemping to get `yarn run ship` to work... oh, it needs a starting tag.
+* created tag 0.0.0 to get ``yarn run ship`` to work. `git tag 0.0.0`
+* created config.json with github access token - checked .gitignore first!
 
 ## Core structure
 
@@ -29,4 +28,4 @@ Are you looking for the [MANTHA-readme](README.md)?
 
 * Hide link to ghost.org in footer.
 * Tags and Author indexes - added page-tags.hbs, page-authors.hbs and CSS in mantha.css
-* Casper-fix: font-family: inherit - so you can set your site font once.
+* Casper-fix: font-family: inheritance - so you can set your site font once, on your `body`.

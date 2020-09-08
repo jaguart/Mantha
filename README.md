@@ -54,7 +54,7 @@ The following tweaks are planned:
 Some of Mantha's tweaks are automatic. Some of them require a little set-up on your site.
 
 ## Installing Mantha
-* Download a released source zip, and upload it using your Admin->Settings->Design->Upload a Theme button.
+* Download a released source zip, and upload it using your `Admin->Settings->Design->Upload a Theme` button.
 * The releases can be found here: [releases/](https://github.com/jaguart/mantha/releases)
 
 ## Mantha Tabs and Authors indexes
