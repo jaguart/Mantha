@@ -4,7 +4,7 @@ Mantha is the very best friend of Casper - the default theme for [Ghost](http://
 
 You can find [Casper here!](https://github.com/TryGhost/Casper/) - and if you haven't met [Ghost](http://github.com/tryghost/ghost/) - well, where have you been??
 
-# But first...
+## But first coffee...
 
 This is my first repo on GitHub - so I may well get things in a muddle as I grapple with the new-to-me GitHub workflows - apologies in advance.
 
@@ -24,13 +24,15 @@ I want Mantha to be stable, and to very easily accept upstream merges from Caspe
 * Integrate nicely with Ghost routes.yaml.
 * Comment the _why_ rather than the how.
 
-> Less is sooo much more!
+> Less is so much more!
 
-Please note that I do understand that my approach makes it harder to get some of these tweaks back into upstream [Casper](https://github.com/TryGhost/Casper/).
+Please note that I do understand that my approach makes it harder to get some of these tweaks back
+into upstream [Casper](https://github.com/TryGhost/Casper/).
 
-Some of the Mantha tweaks might be considered bug-fixes - e.g. the addition of ``font-face: inherit;`` so that you can just set your preferred font in one place.
-
-I have kept Mantha isolated from Casper because when I did query Casper behaviour, my posts were deleted without comment in the Ghost moderated forums. Maybe my sense of humour is too whacky for the Ghost team?
+Some of the Mantha tweaks might be considered bug-fixes - e.g. the addition of ``font-face:
+inherit;`` so that you can just set your preferred font in one place. I have kept Mantha isolated
+from Casper because when I did query Casper behaviour, my posts were deleted without comment in the
+Ghost moderated forums. Maybe my sense of humour is too whacky for the Ghost team?
 
 # Mantha Does...
 
@@ -41,6 +43,7 @@ The following tweaks are incorporated in Mantha:
 
 The following tweaks are planned:
 * Presentation - reduction of vertical whites-space.
+* Presentation - hide the footer link to ghost.org - I show my Ghost love in other ways.
 * Index - a template for /tags/ to list all Tags.
 * Index - a template for /authors/ to list all Authors.
 * Index - a template for /my-tag-route/ to list ``routes:`` specified in ``routes.yaml``
@@ -50,11 +53,13 @@ The following tweaks are planned:
 # How Mantha, How?
 
 Some of Mantha's tweaks are automatic. Some of them require a little set-up on your site.
-* TBC as features are implemented.
 
-# Under Mantha's Hoodie
+## Installing Mantha
+* TBC
 
-How Mantha does what she does...
+## Under Mantha's Hoodie
+
+How Mantha does what she does... can be found here: [MANTHA-changes](MANTHA-changes.md)
 
 # Copyright & License
 
