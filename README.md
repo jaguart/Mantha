@@ -32,12 +32,29 @@ Some of the Mantha tweaks might be considered bug-fixes - e.g. the addition of `
 
 I have kept Mantha isolated from Casper because when I did query Casper behaviour, my posts were deleted without comment in the Ghost moderated forums. Maybe my sense of humour is too whacky for the Ghost team?
 
-
-# Mantha Specifics
+# Mantha Does...
 
 The following tweaks are incorporated in Mantha:
 * TBC as tweaks are added.
 
+# Mantha Will...
+
+The following tweaks are planned:
+* Presentation - reduction of vertical whites-space.
+* Index - a template for /tags/ to list all Tags.
+* Index - a template for /authors/ to list all Authors.
+* Index - a template for /my-tag-route/ to list ``routes:`` specified in ``routes.yaml``
+* Fix - support single site-wide font selection in code-injection.
+* Secondary Menu - visible on Mobile
+
+# How Mantha, How?
+
+Some of Mantha's tweaks are automatic. Some of them require a little set-up on your site.
+* TBC as features are implemented.
+
+# Under Mantha's Hoodie
+
+How Mantha does what she does...
 
 # Copyright & License
 
