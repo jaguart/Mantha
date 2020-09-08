@@ -1,8 +1,8 @@
 # Mantha
 
-Mantha is the very best friend of Casper - the default theme for [Ghost](http://github.com/tryghost/ghost/).
+Mantha is the very best friend of Casper - the default theme for [Ghost](https://github.com/tryghost/ghost/).
 
-You can find [Casper here!](https://github.com/TryGhost/Casper/) - and if you haven't met [Ghost](http://github.com/tryghost/ghost/) - well, where have you been??
+You can find [Casper here!](https://github.com/TryGhost/Casper/) - and if you haven't met [Ghost](https://github.com/tryghost/ghost/) - well, where have you been??
 
 ## But first coffee...
 
@@ -55,7 +55,7 @@ Some of Mantha's tweaks are automatic. Some of them require a little set-up on y
 
 ## Installing Mantha
 * Download a released source zip, and upload it using your Admin->Settings->Design->Upload a Theme button.
-* The releases can be found here: [releases/](releases/)
+* The releases can be found here: [releases/](https://github.com/jaguart/mantha/releases)
 
 ## Under Mantha's Hoodie
 
