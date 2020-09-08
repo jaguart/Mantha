@@ -29,3 +29,4 @@ Are you looking for the [MANTHA-readme](README.md)?
 
 * Hide link to ghost.org in footer.
 * Tags and Author indexes - added page-tags.hbs, page-authors.hbs and CSS in mantha.css
+* Casper-fix: font-family: inherit - so you can set your site font once.

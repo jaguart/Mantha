@@ -4,6 +4,11 @@
 .site-footer a[href^="https://ghost.org"] { display: none; }
 
 /* -------------------------------------------------------------------------- */
+/* Its a PITA to set the Casper fonts */
+/* screen.css:694 and screen.css:1018 set these two to Georgia, serif - huh?? */
+.post-card-excerpt, .post-full-content { font-family: inherit; }
+
+/* -------------------------------------------------------------------------- */
 /* Tags and Authors indexes - used in page-tags.hbs and page-authors.hbs */
 .mantha-card-list {
     display: flex;

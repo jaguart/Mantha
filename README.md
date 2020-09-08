@@ -37,16 +37,16 @@ Ghost moderated forums. Maybe my sense of humour is too whacky for the Ghost tea
 # Mantha Does...
 
 The following tweaks are incorporated in Mantha:
-* Hide link to ghost.org in footer. v0.0.1
+* Hide link to ghost.org in footer.  v0.0.1
 * Tags index - see how to activate below. v0.0.2
 * Authors index - see how to activate below. v0.0.2
+* Casper-Fix - support single site-wide font selection in code-injection. v0.0.3
 
 # Mantha Will...
 
 The following tweaks are planned:
 * Presentation - reduction of vertical whites-space.
 * Index - a template for /my-tag-route/ to list ``routes:`` specified in ``routes.yaml``
-* Fix - support single site-wide font selection in code-injection.
 * Secondary Menu - visible on Mobile
 
 # How Mantha, How?
@@ -62,6 +62,20 @@ Some of Mantha's tweaks are automatic. Some of them require a little set-up on y
 * Create a _page_ called **tags**
 * Create a _page_ called **authors**
 * Add /tags/ and /authors/ to your secondary site navigation.
+
+## One Font to Rule them all...
+
+To set a single site-wide font:
+
+* Install Mantha, >= v0.03
+
+Then in your `<code-injection>->site-header` do something like:
+```
+<link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+<style> body { font-family: 'Grandstander', cursive;} </style>
+```
+
+If you're a font-fanatic, you probably already know about https://fonts.google.com/
 
 ## Under Mantha's Hoodie
 
