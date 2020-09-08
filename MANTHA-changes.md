@@ -9,7 +9,7 @@ Are you looking for the [MANTHA-readme](README.md)?
 * updated ``.gitignore`` to exclude things in ``assets/built/``
 * removed tracking of the current content of ``assets/built/`` - ``git rm --cache assets/built/*``
 * added to [LICENCE](LICENCE)
-* mANTHARISED package.json
+* Mantharised package.json
 * removed all Casper repo tags `git tag -d $(git tag -l)`
 * updated gulpfile.js - attemping to get `yarn run ship` to work... oh, it needs a starting tag.
 * created tag 0.0.0 to get ``yarn run ship`` to work. `git tag 0.0.0`
@@ -26,6 +26,6 @@ Are you looking for the [MANTHA-readme](README.md)?
 
 ## Feature
 
-* Hide link to ghost.org in footer.
-* Tags and Author indexes - added page-tags.hbs, page-authors.hbs and CSS in mantha.css
-* Casper-fix: font-family: inheritance - so you can set your site font once, on your `body`.
+* Hide link to ghost.org in footer - mantha.css.
+* Tags and Author indexes - page-tags.hbs, page-authors.hbs, mantha.css
+* Casper-fix: font-family: inheritance - set your site font once, on `body` - mantha.css
