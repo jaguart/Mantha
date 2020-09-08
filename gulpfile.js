@@ -138,12 +138,14 @@ exports.release = () => {
         uri: `https://api.github.com/repos/${REPO_READONLY}/releases`
     }))
     .then((response) => {
+        let previousVersion = '0.0.0';
         if (!response || !response.length) {
-            console.log('No releases found. Skipping...');
-            return;
+            // console.log('No releases found. Skipping...');
+            //return;
         }
-
-        let previousVersion = response[0].tag_name || response[0].name;
+        else {
+          previousVersion = response[0].tag_name || response[0].name;
+        }
         console.log(`Previous version: ${previousVersion}`);
         return Promise.resolve(previousVersion);
     })
