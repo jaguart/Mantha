@@ -9,3 +9,17 @@ Are you looking for the [MANTHA-readme](README.md)?
 
 * updated ``.gitignore`` to exclude things in ``assets/built/``
 * removed tracking of the current content of ``assets/built/`` - ``git rm --cache assets/built/*``
+* added to LICENCE
+
+## Core structure
+
+* Created assets/css/mantha.css
+  * added line into default.hbs to include this CSS
+* Created assets/js/mantha.js
+  * added line into default.hbs to include this JS
+  * will use `{{#contentFor "scripts"}}` in templates to activate JS.
+
+
+## Feature
+
+* Hide link to ghost.org in footer.

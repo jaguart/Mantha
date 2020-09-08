@@ -37,13 +37,12 @@ Ghost moderated forums. Maybe my sense of humour is too whacky for the Ghost tea
 # Mantha Does...
 
 The following tweaks are incorporated in Mantha:
-* TBC as tweaks are added.
+* Hide link to ghost.org in footer.
 
 # Mantha Will...
 
 The following tweaks are planned:
 * Presentation - reduction of vertical whites-space.
-* Presentation - hide the footer link to ghost.org - I show my Ghost love in other ways.
 * Index - a template for /tags/ to list all Tags.
 * Index - a template for /authors/ to list all Authors.
 * Index - a template for /my-tag-route/ to list ``routes:`` specified in ``routes.yaml``

@@ -1,0 +1,4 @@
+/* Mantha tweaks for Casper */
+
+/* Hide the footer link to ghost.org */
+.site-footer a[href^="https://ghost.org"] { display: none; }
