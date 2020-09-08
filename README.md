@@ -41,11 +41,11 @@ The following tweaks are incorporated in Mantha:
 * Tags index - see how to activate below. v0.0.2
 * Authors index - see how to activate below. v0.0.2
 * Casper-Fix - support single site-wide font selection in code-injection. v0.0.3
+* Casper-Tweak - half some of the vertical padding to show more content. v0.0.4
 
 # Mantha Will...
 
 The following tweaks are planned:
-* Presentation - reduction of vertical whites-space.
 * Index - a template for /my-tag-route/ to list ``routes:`` specified in ``routes.yaml``
 * Secondary Menu - visible on Mobile
 

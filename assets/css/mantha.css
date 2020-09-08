@@ -1,12 +1,24 @@
 /* Mantha tweaks for Casper */
 
+/* -------------------------------------------------------------------------- */
 /* Hide the footer link to ghost.org */
 .site-footer a[href^="https://ghost.org"] { display: none; }
 
 /* -------------------------------------------------------------------------- */
-/* Its a PITA to set the Casper fonts */
-/* screen.css:694 and screen.css:1018 set these two to Georgia, serif - huh?? */
+/* Casper font-family has to be set in three places because
+   screen.css:694 and screen.css:1018 set to Georgia, serif - umm */
 .post-card-excerpt, .post-full-content { font-family: inherit; }
+
+/* -------------------------------------------------------------------------- */
+/* Minor spacing tweaks to Casper */
+
+/* These are all half of the Casper settings */
+.site-archive-header .site-header-content { padding-top: 6vw; }
+.page-template .site-main, .post-template .site-main { margin-top: 32px; }
+.post-full-header { padding-bottom: 24px; }
+
+/* LightWidget is pushed too-far down, by site-footer bottom padding */
+.site-footer { padding-bottom: 20px; }
 
 /* -------------------------------------------------------------------------- */
 /* Tags and Authors indexes - used in page-tags.hbs and page-authors.hbs */
