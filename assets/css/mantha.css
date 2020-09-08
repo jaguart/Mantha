@@ -2,3 +2,29 @@
 
 /* Hide the footer link to ghost.org */
 .site-footer a[href^="https://ghost.org"] { display: none; }
+
+/* -------------------------------------------------------------------------- */
+/* Tags and Authors indexes - used in page-tags.hbs and page-authors.hbs */
+.mantha-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.mantha-card {
+    border: 1px solid #ccc;
+    margin: 4px;
+    box-shadow: 4px 4px 8px 0 rgba(0,0,0,0.10), -4px -4px 8px 0 rgba(0,0,0,0.10);
+    padding: 4px;
+}
+
+.mantha-card img, .mantha-card p, .mantha-card h2 {
+    max-width: 300px;
+    margin: 0;
+}
+
+.mantha-card p {
+    font-style: italic;
+    line-height: normal;
+    color: #888888;
+}

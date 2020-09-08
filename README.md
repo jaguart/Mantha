@@ -37,14 +37,14 @@ Ghost moderated forums. Maybe my sense of humour is too whacky for the Ghost tea
 # Mantha Does...
 
 The following tweaks are incorporated in Mantha:
-* Hide link to ghost.org in footer.
+* Hide link to ghost.org in footer. v0.0.1
+* Tags index - see how to activate below. v0.0.2
+* Authors index - see how to activate below. v0.0.2
 
 # Mantha Will...
 
 The following tweaks are planned:
 * Presentation - reduction of vertical whites-space.
-* Index - a template for /tags/ to list all Tags.
-* Index - a template for /authors/ to list all Authors.
 * Index - a template for /my-tag-route/ to list ``routes:`` specified in ``routes.yaml``
 * Fix - support single site-wide font selection in code-injection.
 * Secondary Menu - visible on Mobile
@@ -56,6 +56,12 @@ Some of Mantha's tweaks are automatic. Some of them require a little set-up on y
 ## Installing Mantha
 * Download a released source zip, and upload it using your Admin->Settings->Design->Upload a Theme button.
 * The releases can be found here: [releases/](https://github.com/jaguart/mantha/releases)
+
+## Mantha Tabs and Authors indexes
+* Install version 0.02 or higher
+* Create a _page_ called **tags**
+* Create a _page_ called **authors**
+* Add /tags/ and /authors/ to your secondary site navigation.
 
 ## Under Mantha's Hoodie
 

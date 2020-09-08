@@ -1,0 +1,36 @@
+{{!< default}}
+
+{{#post}}
+<header class="site-archive-header">
+  {{> site-header }}
+  {{> header-background background=feature_image }}
+  <div class="inner site-header-content">
+    <h1 class="site-title">{{title}}</h1>
+    <h2 class="site-description">
+      {{#if excerpt}}  {{!-- usually content, but for these pages, excerpt --}}
+        {{excerpt}}
+        {{else}}
+        Welcome to my world...
+      {{/if}}
+    </h2>
+</header>
+{{/post}}
+
+<main id="site-main" class="site-main outer" role="main">
+
+  {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+  <div class="mantha-card-list">
+    {{#foreach tags}}
+      <div class="mantha-card">
+        <a href='{{ url }}'>
+        <h2>{{ name }} <small>({{ count.posts }})</small></h2>
+        <img src='{{ img_url feature_image size="s"}}' alt='{{ title }}'/>
+        <p> {{ description }} </p>
+        </a>
+      </div>
+    {{/foreach}}
+  </div>
+  {{/get}}
+
+</main>
+

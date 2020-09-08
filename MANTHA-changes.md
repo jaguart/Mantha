@@ -13,6 +13,7 @@ Are you looking for the [MANTHA-readme](README.md)?
 * updated package.json for Mantha
 * removed all Casper tags
 * created tag 0.0.0 to get ``yarn run ship`` to work.
+* created config.json with github access token.
 * updated gulpfile.js
 
 ## Core structure
@@ -27,3 +28,4 @@ Are you looking for the [MANTHA-readme](README.md)?
 ## Feature
 
 * Hide link to ghost.org in footer.
+* Tags and Author indexes - added page-tags.hbs, page-authors.hbs and CSS in mantha.css

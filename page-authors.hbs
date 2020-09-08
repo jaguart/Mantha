@@ -1,0 +1,36 @@
+{{!< default}}
+
+{{#post}}
+<header class="site-archive-header">
+  {{> site-header }}
+  {{> header-background background=feature_image }}
+  <div class="inner site-header-content">
+    <h1 class="site-title">{{title}}</h1>
+    <h2 class="site-description">
+      {{#if excerpt}}
+        {{excerpt}}
+        {{else}}
+        Welcome to my world...
+      {{/if}}
+    </h2>
+</header>
+{{/post}}
+
+<main id="site-main" class="site-main outer" role="main">
+
+  {{#get 'authors' limit='all' include='count.posts' order='name' }}
+  <div class="mantha-card-list">
+    {{#foreach authors}}
+      <div class="mantha-card">
+        <a href='{{ url }}'>
+        <h2>{{ name }} <small>({{ count.posts }})</small></h2>
+        <img src='{{ img_url profile_image size="s"}}' alt='{{ name }}' style="max-width: 300px;"/>
+        <p> {{ location }} - {{ bio }} </p>
+        </a>
+      </div>
+    {{/foreach}}
+  </div>
+  {{/get}}
+
+</main>
+
