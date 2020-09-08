@@ -54,7 +54,8 @@ The following tweaks are planned:
 Some of Mantha's tweaks are automatic. Some of them require a little set-up on your site.
 
 ## Installing Mantha
-* TBC
+* Download a released source zip, and upload it using your Admin->Settings->Design->Upload a Theme button.
+* The releases can be found here: [releases/](releases/)
 
 ## Under Mantha's Hoodie
 

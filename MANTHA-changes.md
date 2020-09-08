@@ -11,6 +11,9 @@ Are you looking for the [MANTHA-readme](README.md)?
 * removed tracking of the current content of ``assets/built/`` - ``git rm --cache assets/built/*``
 * added to LICENCE
 * updated package.json for Mantha
+* removed all Casper tags
+* created tag 0.0.0 to get ``yarn run ship`` to work.
+* updated gulpfile.js
 
 ## Core structure
 
