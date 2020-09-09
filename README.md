@@ -29,9 +29,9 @@ I want Mantha to be stable, and to very easily accept upstream merges from Caspe
 Please note that I do understand that my approach makes it harder to get some of these tweaks back
 into upstream [Casper](https://github.com/TryGhost/Casper/).
 
-Some of the Mantha tweaks might be considered bug-fixes - e.g. the addition of ``font-face:
-inherit;`` so that you can just set your preferred font in one place. I have kept Mantha isolated
-from Casper because when I did query Casper behaviour, my posts were deleted without comment in the
+Some of the Mantha tweaks might be considered feature-fixes - e.g. the addition of ``font-face:
+inherit;`` so that you can set your preferred font in one place. I have kept Mantha isolated
+from Casper because when I did query Casper behaviour, my posts were deleted from the
 Ghost moderated forums. Maybe my sense of humour is too whacky for the Ghost team?
 
 # Mantha Does...
