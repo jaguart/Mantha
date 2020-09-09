@@ -127,7 +127,7 @@ exports.release = () => {
         type: 'input',
         name: 'compatibleWithGhost',
         message: 'Which version of Ghost is it compatible with?',
-        default: '3.31.0'
+        default: '3.0.0'
     }])
     .then(result => {
         compatibleWithGhost = result.compatibleWithGhost;

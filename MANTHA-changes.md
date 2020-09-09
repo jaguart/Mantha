@@ -11,7 +11,8 @@ Are you looking for the [MANTHA-readme](README.md)?
 * added to [LICENCE](LICENCE)
 * Mantharised package.json
 * removed all Casper repo tags `git tag -d $(git tag -l)`
-* updated gulpfile.js - attemping to get `yarn run ship` to work... oh, it needs a starting tag.
+* don't fetch Casper tags - `git config remote.upstream.tagOpt --no-tags`
+* updated gulpfile.js - attemping to get `yarn run ship` to work... oh, all it needs is a starting tag
 * created tag 0.0.0 to get ``yarn run ship`` to work. `git tag 0.0.0`
 * created config.json with github access token - checked .gitignore first!
 
